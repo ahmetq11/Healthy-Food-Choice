@@ -1,7 +1,18 @@
-# Vue 3 + Vite
+# Healty Food Choice
+![Image of Healthy Food Choice](https://res.cloudinary.com/dxvaflw4a/image/upload/v1635691060/hfc-software/food_i1du5j.jpg)
+## About Project
+Healthy Food Choice is a user-specific healthy food recommendation program. Although Healthy Food Choice started as a term project for software engineering course, it will continue to be developed. Therefore, thank you in advance for all your contributions.
+The development process of the project can be followed on the [project page](https://github.com/ahmetq11/Healthy-Food-Choice/projects) and [wiki page](https://github.com/ahmetq11/Healthy-Food-Choice/wiki) for those who are curious. 
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Team Members
+> Ahmet Tık <br>
+> GitHub [@ahmetq11](https://github.com/ahmetq11)
 
-## Recommended IDE Setup
+> Cavit Eren Yıldız <br>
+> GitHub [@Cavit-Eren-YILDIZ](https://github.com/Cavit-Eren-YILDIZ)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+> Fedai Paça <br>
+> GitHub [@fidopaca](https://github.com/fidopaca)
+
+## License
+MIT
