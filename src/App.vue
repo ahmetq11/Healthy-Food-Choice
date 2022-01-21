@@ -1,4 +1,11 @@
-<script setup></script>
+<script>
+import SvgIcon from "./components/SvgIcon.vue";
+export default {
+  components: {
+    SvgIcon,
+  },
+};
+</script>
 
 <template>
   <div class="font-sans antialiased text-gray-900 bg-white min-h-screen container mx-auto px-4">
@@ -50,7 +57,14 @@
       <router-view></router-view>
     </main>
     <footer class="border-t mt-10 py-6">
-      <span class="text-sm text-gray-500">App by Healthy Food Choice | 2022</span>
+      <span class="text-sm text-gray-500">App by <strong>Healthy Food Choice </strong>| 2022</span>
+      <div class="flex items-center space-x-2">
+        <span class="text-sm text-gray-500"> Contact via </span>
+        <a href="https://github.com/ahmetq11/Healthy-Food-Choice" class="flex items-center space-x-1 font-medium text-sm text-gray-600">
+          <SvgIcon name="github" class="h-6 w-6"></SvgIcon>
+          GitHub
+        </a>
+      </div>
     </footer>
   </div>
 </template>
