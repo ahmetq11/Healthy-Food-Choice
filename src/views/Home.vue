@@ -392,11 +392,15 @@ export default {
         <div v-for="(data, key) in listUserData">
           <!-- measures -->
           <div v-if="key == 'measures' && data.filled == true">
-            <div class="font-bold text-gray-700 flex items-center space-x-6">
+            <div class="font-bold text-gray-700 flex items-center">
               <span>Fiziksel Bilgileriniz</span>
-              <button @click.prevent="editData(key)" class="flex items-center text-gray-500">
+              <button @click.prevent="editData(key)" class="ml-14 flex items-center text-gray-500">
                 <SvgIcon name="edit" class="h-5 w-5"></SvgIcon>
                 <span class="ml-1">Düzenle</span>
+              </button>
+              <button class="flex items-center text-gray-500 ml-8">
+                <SvgIcon name="trash" class="h-5 w-5"></SvgIcon>
+                <span class="ml-1">Kaldır</span>
               </button>
             </div>
             <ul class="space-y-2 mt-1">
